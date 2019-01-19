@@ -16,3 +16,11 @@ base-devel
 feh
 shellcheck
 pandoc
+texlive-core
+parcellite
+volumeicon
+xautolock
+acpi
+sysstat
+xdg-utils
+autorandr
