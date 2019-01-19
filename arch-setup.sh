@@ -30,7 +30,7 @@ pacman -S --noconfirm "$package_list"
 bootctl install
 cp /tmp/systemd-boot/loader.conf /boot/loader/loader.conf
 cp /tmp/systemd-boot/arch.conf /boot/loader/entries/arch.conf
-sed -i 's/SWAPPART/$swap_part/' /boot/load/entries/arch.conf
+sed -i "s/SWAPPART/$swap_part/" /boot/load/entries/arch.conf
 
 
 sed -i 's/#en_US-UTF-8/en_US-UTF-8/' /etc/locale.gen
