@@ -1,4 +1,4 @@
-vim
+gvim
 intel-ucode
 dialog
 wpa_supplicant
@@ -24,3 +24,5 @@ acpi
 sysstat
 xdg-utils
 autorandr
+htop
+alsa-utils
