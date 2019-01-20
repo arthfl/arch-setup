@@ -26,3 +26,4 @@ xdg-utils
 autorandr
 htop
 alsa-utils
+scrot
