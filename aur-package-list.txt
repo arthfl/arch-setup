@@ -1,3 +1,5 @@
 xcwd-git
-sway-git
-swaylock-git
+openconnect-palo-git
+google-cloud-sdk
+python-azure-cli
+cinf
