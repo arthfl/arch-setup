@@ -66,9 +66,9 @@ sed -i "s/CRYPTDISKUUID/$crypt_disk_uuid/" /boot/load/entries/arch.conf
 
 
 echo "Configuring locale settings..."
-sed -i 's/#en_US-UTF-8/en_US-UTF-8/' /etc/locale.gen
+sed -i 's/^#en_US.UTF-8/en_US-UTF-8/' /etc/locale.gen
 locale-gen
-echo "en_US-UTF-8" > /etc/locale.conf
+echo "LANG=en_US.UTF-8" > /etc/locale.conf
 
 echo "Adding group for user..."
 groupadd "$user_grp"
