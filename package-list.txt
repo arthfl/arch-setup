@@ -64,3 +64,4 @@ tcpdump
 yamllint
 lsof
 strace
+networkmanager
