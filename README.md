@@ -9,7 +9,7 @@ It's not tested properly etc...
 
 # Usage
 * Clone repo
-* Fill out missing values with whatever you want
+* Fill out missing values with whatever you want/need
 * Check if `package-list.txt` contains what you want. Edit if needed.
 * run script:
 ```bash
