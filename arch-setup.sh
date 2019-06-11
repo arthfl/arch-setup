@@ -82,5 +82,4 @@ echo "$hostname" > /etc/hostname
 
 exit
 
-echo "Don't forget to set PART-ID of your root disk in /boot/loader/entries/arch.conf!"
-echo "Afterwards, you can reboot"
+echo "Reboot and hail satan"
