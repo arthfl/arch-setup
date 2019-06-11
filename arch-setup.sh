@@ -77,6 +77,12 @@ useradd -m -g "$user_grp" -G wheel -s /bin/bash "$user_name"
 echo "Setting password for user..."
 passwd "$user_name"
 
+echo "Configuring mkinitcpio..."
+sed -i 's/ block / encrypt block /' /etc/mkinitcpio.conf
+
+echo "Generating new CPIO image..."
+mkinitcpio -p linux
+
 echo "Setting hostname..."
 echo "$hostname" > /etc/hostname
 
