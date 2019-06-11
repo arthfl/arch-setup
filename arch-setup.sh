@@ -37,7 +37,7 @@ pacstrap /mnt base
 echo "Generating /etc/fstab..."
 genfstab -U /mnt >> /mnt/etc/fstab
 
-cp -av systemd-boot /mnt/tmp/
+cp -av systemd-boot /mnt/root/
 
 echo "Chrooting into /mnt..."
 arch-chroot /mnt
@@ -51,8 +51,8 @@ echo "Installing systemd-boot..."
 bootctl install
 
 echo "Configuring systemd-boot..."
-cp /tmp/systemd-boot/loader.conf /boot/loader/loader.conf
-cp /tmp/systemd-boot/arch.conf /boot/loader/entries/arch.conf
+cp /root/systemd-boot/loader.conf /boot/loader/loader.conf
+cp /root/systemd-boot/arch.conf /boot/loader/entries/arch.conf
 
 echo "Configuring swap partition for hibernation..."
 trimmed_swap_part="$(awk 'FS = "/" {print NF}' )"
