@@ -21,3 +21,11 @@ So, everything except /boot in a flat partition
 ```
 * Hopefully be happy. If not, blame the lizard people.
 
+# Still missing
+* partitioning
+* timezone config
+* daemon config for:
+    * network-manager
+    * ntp
+* thunderbolt dock config
+* optional user specific configs(?)
