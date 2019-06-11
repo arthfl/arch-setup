@@ -23,6 +23,7 @@ So, everything except /boot in a flat partition
 
 # Still missing
 * partitioning
+* network setup (wpa enterprise)
 * timezone config
 * daemon config for:
     * network-manager
