@@ -29,4 +29,5 @@ So, everything except /boot in a flat partition
     * network-manager
     * ntp
 * thunderbolt dock config
-* optional user specific configs(?)
+* option for basic config of some services (e.g. mpd)
+* vconsole.conf config for hidpi setups
