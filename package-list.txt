@@ -65,3 +65,5 @@ yamllint
 lsof
 strace
 networkmanager
+ntp
+go
