@@ -67,3 +67,5 @@ strace
 networkmanager
 ntp
 go
+nmap
+bc
