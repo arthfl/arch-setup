@@ -70,3 +70,4 @@ go
 nmap
 bc
 sipcalc
+docker-compose
