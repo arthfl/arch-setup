@@ -73,3 +73,12 @@ sipcalc
 docker-compose
 cups
 meld
+sway
+waybar
+otf-font-awesome
+swayidle
+swaylock
+alacritty
+bash-language-server
+python-language-server
+udiskie

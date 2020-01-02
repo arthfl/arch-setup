@@ -3,3 +3,4 @@ openconnect-palo-git
 google-cloud-sdk
 python-azure-cli
 cinf
+clipman
