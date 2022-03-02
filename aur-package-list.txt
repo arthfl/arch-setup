@@ -4,3 +4,7 @@ google-cloud-sdk
 python-azure-cli
 cinf
 clipman
+ccls
+davmail
+urlview
+latex-enumitem
