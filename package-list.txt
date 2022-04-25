@@ -5,7 +5,7 @@ wpa_supplicant
 xorg
 xorg-apps
 xorg-xinit
-xf85-video-intel
+xf86-video-intel
 nvidia
 bumblebee
 mesa
@@ -38,7 +38,7 @@ mpd
 mpc
 ncmpcpp
 lxdm
-i3wm
+i3-wm
 i3lock
 scrot
 imagemagick
@@ -80,7 +80,7 @@ swayidle
 swaylock
 alacritty
 bash-language-server
-python-language-server
+python-lsp-server
 udiskie
 tmux
 syncthing
