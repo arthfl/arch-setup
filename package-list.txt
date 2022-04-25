@@ -88,3 +88,4 @@ libvirt
 ebtables
 dnsmasq
 python-kubernetes
+gopls
