@@ -87,3 +87,4 @@ syncthing
 libvirt
 ebtables
 dnsmasq
+python-kubernetes
