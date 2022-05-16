@@ -89,3 +89,8 @@ ebtables
 dnsmasq
 python-kubernetes
 gopls
+redshift
+offlineimap
+echo thunderbird
+nextcloud-client
+python-pylint
